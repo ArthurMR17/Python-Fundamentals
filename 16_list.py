@@ -66,7 +66,7 @@ print(textocambio, "\n")
 my_tuple = (56, "Blue", True, 3.141516, "Yellow")
 print(f"My tupla: {my_tuple}", "\n")
 
-my_list = [56, "Blue", True, 3.141516, "Yellow"]
+my_list = [56, 'Yellow', "Blue", True, 3.141516, "Yellow"]
 print(f"Antes: {my_list}")
 
 my_list.insert(2, "Gold")
@@ -104,3 +104,5 @@ thislist = ["apple", "banana", "cherry"]
 for i in range(len(thislist)):
     print(i)
     print(thislist[i])
+print('\n')
+print(my_list.count('Yellow'))
