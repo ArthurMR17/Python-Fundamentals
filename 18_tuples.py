@@ -1,3 +1,7 @@
+# [ ] = Listas
+# ( ) = Tuplas
+# { } = Diccionarios
+
 numbers = (1, 2, 3, 4)
 strings = ('casa', 'casa', 'zapato', 'calle')
 print(numbers)

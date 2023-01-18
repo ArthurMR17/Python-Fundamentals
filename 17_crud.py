@@ -1,5 +1,7 @@
-# CRUD Create, Read, Update, Delete
-
+# CRUD Create, Read, Update, Delete LISTAS
+# [ ] = Listas
+# ( ) = Tuplas
+# { } = Diccionarios
 numbers = [1, 2, 3, 4, 5]
 print(numbers[1])
 numbers[-1] = 10
