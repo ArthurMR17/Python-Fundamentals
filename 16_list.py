@@ -3,7 +3,14 @@
 # { } = Diccionarios
 
 numbers = [1, 2, 3, 4]
-print(numbers)
+n = numbers.copy()  # copia de valor en memoria
+n = list(numbers)  # copia de valor en memora
+n = numbers  # Referencia a memoria
+n.pop(1)
+print('imprimiendo n', n)
+print('imprimiendo numbers', numbers)
+
+"""
 print(type(numbers))
 
 types = [1, True, 'hola']
@@ -21,7 +28,7 @@ for elemento in info_usuario:
     print(elemento)
 print("\n")
 
-"""
+
 nombre = input("nombre paciente")
 edad = input("edad paciente")
 print("\n")
@@ -58,7 +65,7 @@ print(infoTotalA)
 print("###########")
 print(infoTotalB)
 
-"""
+
 
 texto = "bienvenidos para irnos a la calle mañana"
 print("INTERCAMBIO DE TEXTO, FUNCION REPLACE \n")
@@ -80,13 +87,13 @@ my_list.append("Magenta")
 my_list.append("Gray")
 my_list.append("Black")
 print(f"DESPUES de append: {my_list}")
-"""
+
 vacunas = ["Pfizer", "Moderna", "Aztrazeneca", "Spunik"]
 my_list.extend(vacunas)
 print("\n")
 print(f"Despues de Extended: {my_list}")
 
-"""
+
 indice = 0
 while indice < len(my_list):
     elemento = my_list[indice]
@@ -110,3 +117,5 @@ for i in range(len(thislist)):
     print(thislist[i])
 print('\n')
 print(my_list.count('Yellow'))
+
+"""
