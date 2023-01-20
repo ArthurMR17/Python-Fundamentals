@@ -60,14 +60,15 @@ dic1 = myDic2.copy()
 
 
 # Actualizando valores del diccioanrio
-print(person)
-person['name'] = 'Kevin'
-person['age'] -= 40
+# print(person)
+# person['name'] = 'Kevin'
+# person['age'] -= 40
+
+person1['langs'] = list(person['langs'])
+# copiando como lista para copiar como valores
+#  y no como referencia a
 
 # Agregando con append porque el valor es una lista
-# person1['langs'] = person1.append('cas')
-# print(person1)
-person1['langs'] = list(person['langs'])
 person1['langs'].append('rust')
 print(person1)
 print(person)
@@ -84,3 +85,9 @@ person.pop('age')
 print('Items: ')
 print(person1.items())
 print(person.items())
+
+print('keys')
+print(person1.keys())
+
+print('values')
+print(person1.values())
