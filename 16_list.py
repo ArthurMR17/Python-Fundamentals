@@ -103,7 +103,6 @@ print("\n")
 for elemento in range(0, len(my_list)):
     print(elemento)
 
-
 thislist = ["apple", "banana", "cherry"]
 for i in range(len(thislist)):
     print(i)

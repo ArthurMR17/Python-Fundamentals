@@ -23,3 +23,12 @@ if stock >= 100 and stock <= 1000:
     print("el stock es el correcto")
 else:
     print("el stock es incorrecto")
+
+
+print(1 == "1")  # False
+print(1 is "1")  # False
+
+if not es_fin_de_semana:
+    print("A trabajar")
+else:
+    print("A disfrutar del fin de semana")

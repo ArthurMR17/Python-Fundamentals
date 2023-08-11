@@ -11,3 +11,9 @@ print(age >= 18)
 print("Prueba Not")
 print(True)
 print(not True)
+
+print(1 < 2) # True
+print(2 > 1) # True
+print(1 <= 2) # True
+print(2 >= 1) # True
+print(1 != 2) # True
