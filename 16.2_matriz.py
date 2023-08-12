@@ -2,7 +2,7 @@ def diagonal_matrix(casX):
     Y = []
     for i in range(len(casX)):
         Y.append(casX[i][i])
-        print(Y)
+        # print(Y)
     return Y
 
 
@@ -11,6 +11,7 @@ print('\n')
 matriz = [[1, -6, 6], [8, 9, .4], [7, 5, -7]]
 empty = []
 for contador in range(len(matriz)):
+    print(contador)
     print(f" una {matriz[contador][contador]}")
     empty.append(matriz[contador][contador])
 print(empty)
@@ -27,4 +28,4 @@ def pos_maximo(Ab):
     return m
 
 
-print(pos_maximo([111, 99, 44, 1, 6]))
+print(pos_maximo([111, 999, 44, 1, 6]))

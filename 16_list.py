@@ -5,7 +5,7 @@
 numbers = [1, 2, 3, 4]
 n = numbers.copy()  # copia de valor en memoria
 n = list(numbers)  # copia de valor en memora
-n = numbers  # Referencia a memoria
+# n = numbers  # Referencia a memoria
 n.pop(1)
 print('imprimiendo n', n)
 print('imprimiendo numbers', numbers)
