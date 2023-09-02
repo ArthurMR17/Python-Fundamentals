@@ -1,5 +1,5 @@
 nombre = "Francisco"
-nombre
+
 "Francisco"
 nombre[0 : 3) #Arranca desde el primer índice hasta llegar antes del 3° índice.
 "Fra"
